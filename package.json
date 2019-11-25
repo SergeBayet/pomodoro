@@ -11,6 +11,9 @@
 		"react-scripts": "3.2.0",
 		"sass-loader": "^8.0.0"
 	},
+	"devDependencies": {
+		"gh-pages": "^2.1.1"
+	},
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
